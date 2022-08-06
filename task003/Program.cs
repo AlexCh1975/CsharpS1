@@ -9,7 +9,7 @@ void DayOfTheWeek(int day)
 {
     string[] week = {"понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресение"};
 
-    if (day > 7 || day == 0) Console.WriteLine("Такого дня недели не существует!");
+    if (day > 7 || day <= 0) Console.WriteLine("Такого дня недели не существует!");
 
     for (int i = 0; i <= week.Length - 1; i++ ) 
     {
